@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "weather-forecast"
+version = "0.1.0"
+description = "Weather forecast with Google Maps widget and Stramlit controls"
+authors = ["Lioris10 <lior@crosstech.co.il>"]
+license = "Apache 2"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.36.0"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
